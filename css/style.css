@@ -1,0 +1,16 @@
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+/* Css Variables */
+@import url('/css/partials/_variables.css');
+
+body {
+    font-family: var(--marri);
+}
+
+.header_area .main_menu .navbar .navbar-nav {
+    font-family: var(--roboto);
+    letter-spacing: .155em;
+    font-weight: 600!important;
+
+}
