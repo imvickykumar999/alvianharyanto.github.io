@@ -1,11 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+html.body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: var(--marri);
+    color: var(--primary2-color);
+}
+
+a {
+    color : var(--link-color);
+}
+
 
 /* Css Variables */
-@import url('css/partials/_variables.css');
 
-/* Css Global */
-@import url('css/partials/_global.css');
+:root {
+    --primary2-color: #051e22;
+    --secondary-color: #f0fe11;
+    --link-color: #ca0b58;
+    --button-color: #219fb5;
 
+/* Font family variables */
+    --roboto:'Roboto', sans;
+    --marri: 'Merriweather', sans-serif;
+}
+
+/* Custom Style Css */
 
 .bg-dark {
     background-color: var(--primary2-color)!important;
@@ -37,3 +57,53 @@
     font-weight: 400;
     font-size: 1.5em;
 }
+
+/* Global Style Css */
+
+.title-text {
+    font: normal bold 40px/40px var(--roboto);
+}
+
+.button {
+    padding: .8rem 2.2rem;
+    font: bold 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 3px;
+}
+
+.primary-button {
+    background: var(--link-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .8s ease;
+}
+
+.primary-button:hover {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: var(--link-color);
+}
+
+.primary-button:after, .secondary-button:after {
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--link-color);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.secondary-button {
+    background: whitesmoke;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.secondary-button:hover {
+    background: var(--link-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+}
+
