@@ -13,12 +13,19 @@ a {
 
 
 /* Css Variables */
+<<<<<<< HEAD
 
 :root {
     --primary2-color: #051e22;
     --secondary-color: #f0fe11;
     --link-color: #ca0b58;
     --button-color: #219fb5;
+=======
+@import url('/css/partials/_variables.css');
+
+/* Css Global */
+@import url('/css/partials/_global.css');
+>>>>>>> 8bdd6cff92f7c2dd1c6a3b9f209e240747f88ce2
 
 /* Font family variables */
     --roboto:'Roboto', sans;
@@ -57,6 +64,7 @@ a {
     font-weight: 400;
     font-size: 1.5em;
 }
+<<<<<<< HEAD
 
 /* Global Style Css */
 
@@ -107,3 +115,5 @@ a {
     color: whitesmoke;
 }
 
+=======
+>>>>>>> 8bdd6cff92f7c2dd1c6a3b9f209e240747f88ce2
