@@ -10,10 +10,12 @@ html.body {
 /* Css Variables */
 
 :root {
-    --primary-color:   #000;
-
+    --primary2-color: #051e22;
+    --secondary-color: #f0fe11;
+    --link-color: #ca0b58;
+    --button-color: #219fb5;
 
 /* Font family variables */
-    --roboto:"Roboto", sans;
-    --marri:"Merriweather", sans-serif;
+    --roboto:'Roboto', sans;
+    --marri: 'Merriweather', sans-serif;
 }

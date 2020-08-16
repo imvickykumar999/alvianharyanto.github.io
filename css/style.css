@@ -3,11 +3,37 @@
 /* Css Variables */
 @import url('/css/partials/_variables.css');
 
-body {
-    font-family: var(--marri);
+/* Css Global */
+@import url('/css/partials/_global.css');
+
+
+.bg-dark {
+    background-color: var(--primary2-color)!important;
 }
 
 .header_area .main_menu .navbar .navbar-nav {
-    font: normal 400 12px/2px var(--roboto);
+    font: normal 400 12px/2px var(--roboto); 
     letter-spacing: .155em;
+} 
+
+.header_area .main_menu .navbar .navbar-nav a {
+    color: whitesmoke;
+}
+
+.header_area .main_menu .navbar .navbar-nav a:hover {
+    color: var(--secondary-color);
+}
+
+.header_area .main_menu .navbar .navbar-nav .active a {
+    color: var(--secondary-color);
+}
+
+.site-main .site-banner .site-title .nama {
+    color: var(--link-color);
+}
+
+.site-main .site-banner .site-title h4 {
+    padding-top: 20%;
+    font-weight: 400;
+    font-size: 1.5em;
 }
