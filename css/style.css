@@ -20,8 +20,8 @@ a {
     --button-color: #219fb5;
 
 /* Font family variables */
-    --roboto:'Roboto', sans;
-    --marri: 'Merriweather', sans-serif;
+    --lato:'Lato', sans-serif;
+    --marri: 'Merriweather', serif;
 }
 
 /* Custom Style Css */
@@ -31,7 +31,7 @@ a {
 }
 
 .header_area .main_menu .navbar .navbar-nav {
-    font: normal 400 12px/2px var(--roboto); 
+    font: normal 400 12px/2px var(--lato); 
     letter-spacing: .155em;
 } 
 
@@ -60,12 +60,12 @@ a {
 /* Global Style Css */
 
 .title-text {
-    font: normal bold 40px/40px var(--roboto);
+    font: normal bold 40px/40px var(--lato);
 }
 
 .button {
     padding: .8rem 2.2rem;
-    font: bold 500 16px/20px var(--roboto);
+    font: bold 500 16px/20px var(--lato);
     position: relative;
     border: 3px solid transparent;
     border-radius: 3px;
